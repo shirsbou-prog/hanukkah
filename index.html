@@ -200,8 +200,8 @@ section{background:rgba(251,244,239,.86)}
 .chip{background:rgba(255,252,250,.9)}
 footer{background:rgba(90,52,24,.94);color:#F6EAE3}
 /* FACTS STRIP: one frosted panel, three facts split by hairline gold rules */
-.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;max-width:520px;background:rgba(255,252,250,.62);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(212,175,55,.45);border-radius:22px;box-shadow:0 12px 30px rgba(90,52,24,.10);margin-top:4px}
-.fact{display:flex;flex-direction:column;align-items:center;gap:2px;padding:14px 8px 13px;min-width:0}
+.facts{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr) minmax(0,1fr);width:100%;max-width:520px;background:rgba(255,252,250,.62);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(212,175,55,.45);border-radius:22px;box-shadow:0 12px 30px rgba(90,52,24,.10);margin-top:4px}
+.fact{display:flex;flex-direction:column;align-items:center;gap:2px;padding:14px 6px 13px;min-width:0}
 .fact+.fact{border-inline-start:1px solid rgba(212,175,55,.45)}
 .fact svg{width:24px;height:24px;color:var(--gold-deep);margin-bottom:4px}
 .fact b{font-size:clamp(18px,4.8vw,22px);font-weight:900;line-height:1.15;font-variant-numeric:tabular-nums}
@@ -244,7 +244,7 @@ footer{background:var(--ink);color:#CDBFC4;font-size:14px;text-align:center;padd
   <p class="sub">אוורירית, זהובה, עם הפס הלבן באמצע. מהמטבח שלכם בבית.</p>
   <div class="btn-row"><a class="btn" href="#workshops">אני רוצה לשריין מקום</a></div>
  <div class="facts" role="list">
- <div class="fact" role="listitem"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg><b>350 ש"ח</b><span>מוקדם עד 2.11</span></div>
+ <div class="fact" role="listitem"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg><b>350 ש"ח</b><span>הרשמה מוקדמת עד 2.11<br>לאחר מכן 390 ש"ח</span></div>
  <div class="fact" role="listitem"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3"/><path d="M3.5 19c.6-3 2.8-4.8 5.5-4.8s4.9 1.8 5.5 4.8"/><circle cx="16.5" cy="9.5" r="2.4"/><path d="M15.6 14.4c2.4.1 4.1 1.6 4.6 4.1"/></svg><b>עד 6</b><span>משתתפים בסדנה</span></div>
  <div class="fact" role="listitem"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.3 1.6 2.8-.2.9 2.7 2.3 1.6-.9 2.7.9 2.7-2.3 1.6-.9 2.7-2.8-.2L12 21l-2.3-1.6-2.8.2-.9-2.7-2.3-1.6.9-2.7-.9-2.7 2.3-1.6.9-2.7 2.8.2z"/><path d="M8.8 12.2l2.2 2.2 4.2-4.6"/></svg><b>כשר</b><span>למהדרין</span></div>
  </div>
